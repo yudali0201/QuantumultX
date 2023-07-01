@@ -2,6 +2,7 @@
 #!2023-07-1
 #!yudali
 #!转自Semporia,原脚本失效,进行修正
+#!使用方法：QuantumultX 重写 引入链接
 
 [URL Rewrite]
 (?<=_region=)CN(?=&) KR 307
