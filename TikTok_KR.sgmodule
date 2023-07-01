@@ -1,9 +1,13 @@
+#!TikTok_KR
+#!2023-07-1
+#!yudali
+#!转自Semporia,原脚本失效,进行修正
+
 [URL Rewrite]
 (?<=_region=)CN(?=&) KR 307
 (?<=&mcc_mnc=)4 2 307
 ^(https?:\/\/(tnc|dm)[\w-]+.\w+.com\/.+)(\?)(.+) $1$3 302
 (^https?:\/\/*.\w{4}okv.com\/.+&.+)(\d{2}.3.\d)(.+) $118.0$3 302
-
 
 [MITM]
 hostname = %APPEND% *.byteoversea.com,*.tik-tokapi.com,*.tiktokv.com
